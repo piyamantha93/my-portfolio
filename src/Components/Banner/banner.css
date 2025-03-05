@@ -1,0 +1,9 @@
+@media screen and (min-width: 320px) {
+    .container{
+      margin-top: "80px";
+    }
+  }
+  .html {
+    scroll-behavior: smooth;
+  }
+  
