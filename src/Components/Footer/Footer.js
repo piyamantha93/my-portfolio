@@ -15,13 +15,13 @@ const Footer = () => {
           
         <div className="flex space-x-6">
 
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-500 transition">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-600 transition">
             <FaFacebook size={24} />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-black hover:text-pink-600 transition">
+          <a href="https://www.instagram.com/piyamantha99?igsh=dzM0dHprOThwM3Bs&utm_source=ig_contact_invite" target="_blank" rel="noopener noreferrer" className="text-black hover:text-pink-600 transition">
             <FaInstagram size={24} />
           </a>
-          <a href="http://linkedin.com/in/piyamanatha-weerasinghe-36b1aa227" target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-400 transition">
+          <a href="http://linkedin.com/in/piyamanatha-weerasinghe-36b1aa227" target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-600 transition">
             <FaLinkedin size={24} />
           </a>
           <a href="https://github.com/piyamantha93?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-400 transition">

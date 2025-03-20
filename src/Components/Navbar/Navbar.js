@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-// import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,10 +14,10 @@ const Navbar = () => {
       <nav className="bg-gray-200 shadow-lg fixed top-0 left-0 w-full p-5 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            {/* Logo */}
-            {/* <div className="ml-4">
-              <img src={logo} alt="logo" style={{ height: '70px', width: 'auto' }} />
-            </div> */}
+        
+             <div className="ml-4">
+              <img src={logo} alt="logo" style={{ height: '110px', width: 'auto' }} />
+            </div>
 
             {/* Centered Navigation Links */}
             <div className="hidden md:flex space-x-8 mx-auto">

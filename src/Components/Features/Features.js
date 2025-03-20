@@ -9,10 +9,10 @@ const Features = () => {
       id="features"
       className="bg-gray-200 w-full py-20"
     >
+      <div className="flex justify-center items-center text-center">
       <Title des="What I Do" />
-      {/* <h1 className="text-4xl lg:text-6xl font-bold">
-             <span className="text-gray-600">What I Do</span>
-          </h1> */}
+      </div>
+      
       
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20" style={{margin:40}}>
         {featuresData.map((item) => (

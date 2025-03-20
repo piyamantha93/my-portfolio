@@ -48,6 +48,10 @@ const Banner = () => {
           I am Piyamantha Weerasingha, a Software Engineering graduate from Cardiff Metropolitan University. With a strong passion for technology, I specialize in full-stack development, databases, and software solutions. I am a responsible, hardworking, and team-oriented individual, always eager to take on challenging roles that allow me to apply my technical expertise while learning about the latest trends in the IT industry. My goal is to contribute to innovative projects and continuously grow as a developer.
           </p>
 
+
+
+
+
           {/* Social Links and Skills Section */}
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
@@ -80,14 +84,17 @@ const Banner = () => {
           </div>
         </div>
 
-        {/* Right Side - Image Section */}
-        <div className="w-full lg:w-1/2 flex justify-center p-4 mt-6 lg:mt-0">
-          <img
-            src={bannerImage}
-            alt="Profile"
-            className="w-[100%] max-w-[450px] h-[500px]" // Make image responsive
-          />
-        </div>
+                    {/* Right Side - Image Section */}
+                    <div className="w-full lg:w-1/2 flex justify-center p-4 mt-6 lg:mt-0">
+  <img
+    src={bannerImage}
+    alt="Profile"
+    className="w-[370px] h-[370px] rounded-full object-cover border-4 border-gray-700 shadow-xl" 
+  />
+</div>
+
+
+
       </section>
 
       <div className="flex justify-center items-center bg-gray-200 m-0 p-0">
