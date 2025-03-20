@@ -83,13 +83,12 @@ const Banner = () => {
             </span>
           </div>
         </div>
-
-                    {/* Right Side - Image Section */}
-                    <div className="w-full lg:w-1/2 flex justify-center p-4 mt-6 lg:mt-0">
+{/* Right Side - Image Section */}
+<div className="w-full lg:w-1/2 flex justify-center p-4 mt-6 lg:mt-0">
   <img
     src={bannerImage}
     alt="Profile"
-    className="w-[370px] h-[370px] rounded-full object-cover border-4 border-gray-700 shadow-xl" 
+    className="hidden lg:block w-[370px] h-[370px] rounded-full object-cover border-4 border-gray-700 shadow-xl"
   />
 </div>
 
