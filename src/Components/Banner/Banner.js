@@ -97,6 +97,9 @@ const Banner = () => {
 
       </section>
 
+
+      
+
       <div className="flex justify-center items-center bg-gray-200 m-0 p-0">
         {/* Horizontal Line */}
         <div className="w-full max-w-7xl h-[2px] bg-gray-500"></div>
@@ -108,3 +111,6 @@ const Banner = () => {
 };
 
 export default Banner;
+
+
+

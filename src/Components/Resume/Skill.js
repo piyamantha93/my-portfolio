@@ -1,15 +1,24 @@
-import React from 'react';
+import React from "react";
 
 const Skill = () => {
   const skills = [
-    { name: 'Node.js', level: '80%' },
-    { name: 'React.js', level: '85%' },
-    { name: 'MongoDB', level: '75%' },
-    { name: 'Git', level: '70%' },
-    { name: 'Spring Boot', level: '65%' },
-    { name: 'Bootstrap', level: '90%' },
-    { name: 'Next.js', level: '65%'},
+    { name: "Node.js", level: "80%" },
+    { name: "React.js", level: "85%" },
+    { name: "MongoDB", level: "75%" },
+    { name: "Git", level: "70%" },
+    { name: "Spring Boot", level: "65%" },
+    { name: "Bootstrap", level: "90%" },
+    { name: "Next.js", level: "65%" },
   ];
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/Piyamantha_CV.pdf"; // Update with your actual file path
+    link.download = "Piyamantha_CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <section>
@@ -28,6 +37,16 @@ const Skill = () => {
           </div>
         </div>
       ))}
+
+      {/* Download Resume Button */}
+      <div className="mt-4 flex justify-left">
+        <button
+          onClick={handleDownload}
+          className="bg-blue-400 text-gray-100 px-6 py-2 rounded-lg text-lg font-small hover:bg-blue-200 transition duration-300"
+        >
+          Download Resume
+        </button>
+      </div>
     </section>
   );
 };

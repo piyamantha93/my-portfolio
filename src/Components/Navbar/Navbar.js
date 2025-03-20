@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from '../../assets/images/logo.png';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +27,24 @@ const Navbar = () => {
               <a href="#projects" className="text-gray-950 hover:text-gray-600 px-3 py-2 text-lg font-titleFont">Projects</a>
               <a href="#resume" className="text-gray-950 hover:text-gray-600 px-3 py-2 text-lg font-titleFont">Resume</a>
               <a href="#contact" className="text-gray-950 hover:text-gray-600 px-3 py-2 text-lg font-titleFont">Contact</a>
+            </div>
+            <div className="hidden md:flex space-x-8">
+              <a
+                href="https://github.com/piyamantha93"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-950 hover:text-gray-600 text-3xl transition-transform transform hover:scale-110"
+              >
+                <FaGithub />
+              </a>
+              <a
+                href="http://linkedin.com/in/piyamanatha-weerasinghe-36b1aa227"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-950 hover:text-blue-500 text-3xl transition-transform transform hover:scale-110"
+              >
+                <FaLinkedin />
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -60,3 +79,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

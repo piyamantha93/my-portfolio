@@ -42,7 +42,7 @@ const Contact = () => {
     href="https://maps.app.goo.gl/k72Au4MCz1s2TpLX8"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-blue-500 hover:underline"
+    className="text-blue-400 hover:underline"
   >
     Wijeramaya, Nugegoda, Srilanka
   </a>
