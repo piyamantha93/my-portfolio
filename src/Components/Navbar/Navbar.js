@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-16">
         
              <div className="ml-4">
-              <img src={logo} alt="logo" style={{ height: '110px', width: 'auto' }} />
+              <img src={logo} alt="logo" style={{ height: '40px', width: 'auto' }} />
             </div>
 
             {/* Centered Navigation Links */}

@@ -13,13 +13,13 @@ const Skill = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/assets/Piyamantha_CV.pdf"; // Update with your actual file path
+    link.href = "/PiyamanthaCV.pdf"; // No 'assets' if it's directly in public
     link.download = "Piyamantha_CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
-
+  
   return (
     <section>
       <h2 className="text-2xl font-semibold text-gray-700 mb-4">Skills</h2>

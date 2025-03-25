@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import Title from "../layouts/Titel";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 
@@ -29,6 +29,15 @@ const projectData = [
     src: projectThree,
     githubLink: "https://github.com/piyamantha93/my-portfolio",
     websiteLink: "https://stress-detection.com",
+  },
+
+  {
+    id: 4,
+    title: "Ecommerce Website",
+    des: "A fully responsive front-end e-commerce web application built using React.js and Tailwind CSS. This modern shopping platform features a clean and intuitive user interface, allowing users to explore products across multiple categories such as Men, Women, Kids, Accessories, and more. .",
+    src: projectFour,
+    githubLink: "https://github.com/piyamantha93/E-commerce",
+    websiteLink: "https://stress-detection.com"
   },
 ];
 
@@ -76,3 +85,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+

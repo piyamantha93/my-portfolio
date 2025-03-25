@@ -45,7 +45,7 @@ const Banner = () => {
             <Cursor cursorBlinking="false" cursorStyle="|" cursorColor="blue" />
           </h2>
           <p className="text-base leading-relaxed text-gray-950">
-          I am Piyamantha Weerasingha, a Software Engineering graduate from Cardiff Metropolitan University. With a strong passion for technology, I specialize in full-stack development, databases, and software solutions. I am a responsible, hardworking, and team-oriented individual, always eager to take on challenging roles that allow me to apply my technical expertise while learning about the latest trends in the IT industry. My goal is to contribute to innovative projects and continuously grow as a developer.
+          I am Piyamantha Weerasinghe, a Software Engineering graduate from Cardiff Metropolitan University. With a strong passion for technology, I specialize in full-stack development, databases, and software solutions. I am a responsible, hardworking, and team-oriented individual, always eager to take on challenging roles that allow me to apply my technical expertise while learning about the latest trends in the IT industry. My goal is to contribute to innovative projects and continuously grow as a developer.
           </p>
 
 
