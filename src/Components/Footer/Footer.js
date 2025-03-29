@@ -32,10 +32,6 @@ const Footer = () => {
 
       <div className="text-center text-sm text-black mt-4 border-t border-gray-700 pt-4">
         <p>&copy; {new Date().getFullYear()} Piyamantha Weerasinghe. All Rights Reserved.</p>
-        <div className="mt-2">
-          <a href="/privacy-policy" className="hover:underline mx-2">Privacy Policy</a>
-          <a href="/terms-of-service" className="hover:underline mx-2">Terms of Service</a>
-        </div>
       </div>
     </footer>
   );
