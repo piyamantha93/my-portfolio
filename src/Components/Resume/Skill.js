@@ -13,7 +13,7 @@ const Skill = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/PiyamanthaCV.pdf"; // No 'assets' if it's directly in public
+    link.href = "/src/assets/images/Piyamantha_CV.pdf"; // No 'assets' if it's directly in public
     link.download = "Piyamantha_CV.pdf";
     document.body.appendChild(link);
     link.click();
