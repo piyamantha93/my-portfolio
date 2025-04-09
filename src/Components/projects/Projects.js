@@ -9,7 +9,7 @@ const projectData = [
   {
     id: 1,
     title: "Stress Detection Web Project",
-    des: "The Stress Detection Web Project is a full-stack application that combines machine learning with web development to predict user stress levels based on health and lifestyle data. The frontend is built with React.js, utilizing Material-UI and custom CSS for a seamless user experience, while the backend is powered by Node.js, Express.js, and MongoDB for secure data management. The project integrates a machine learning model trained on the Sleep Health and Lifestyle Dataset to analyze key factors such as sleep duration, BMI category, heart rate, daily steps, and blood pressure to generate stress predictions. Users can access a dashboard where they input relevant health parameters to receive real-time stress analysis. The system ensures secure authentication with JWT tokens, encrypted passwords, and MongoDB storage.",
+    des: "The Stress Detection Web Project is a full-stack app that uses a machine learning model trained on health and lifestyle data to predict stress levels. It features a React.js frontend with Material-UI and custom CSS, and a Node.js, Express.js, and MongoDB backend for secure data handling.",
     src: projectOne,
     githubLink: "https://github.com/piyamantha93/Stress_Detection",
  
@@ -17,7 +17,7 @@ const projectData = [
   {
     id: 2,
     title: "ABC Lab System",
-    des: "The ABC Lab System is a comprehensive laboratory management solution designed to streamline and automate various operational tasks. Built using Spring Boot as the backend framework, the system ensures scalability, reliability, and robust performance. The front-end interface is developed with Bootstrap, offering a clean, responsive, and user-friendly design for seamless interaction. At its core, the system leverages MySQL for database management, ensuring secure and efficient handling of data. Key features of the system include user registration and authentication, test management, appointment scheduling, result tracking, and billing.",
+    des: "The ABC Lab System is a laboratory management solution built with Spring Boot for a scalable backend and Bootstrap for a responsive frontend. It uses MySQL for secure data handling and offers features like user registration, authentication, test management, appointment scheduling, result tracking, and billing.",
     src: projectTwo,
     githubLink: "https://github.com/piyamantha93/AbcLabSystem",
    
@@ -25,7 +25,7 @@ const projectData = [
   {
     id: 3,
     title: "My Portfolio",
-    des: "This React-based portfolio website is designed to showcase my skills, projects, and experience as a full-stack developer. Built with React.js and Tailwind CSS, the site provides a modern, responsive, and visually appealing interface. It includes key sections like Home, About, Projects, Resume, and Contact, allowing visitors to explore my expertise in technologies such as React.js, Node.js, MongoDB, MySQL, and machine learning. The website also features interactive elements, animations, and smooth navigation to enhance the user experience. Additionally, it includes GitHub and LinkedIn integrations, making it easy to connect with me and explore my work.",
+    des: "This React and Tailwind CSS portfolio highlights my full-stack skills with sections like Home, Projects, and Contact. It showcases expertise in modern web technologies and includes animations, smooth navigation, and GitHub/LinkedIn links for easy connection.",
     src: projectThree,
     githubLink: "https://github.com/piyamantha93/my-portfolio",
 
