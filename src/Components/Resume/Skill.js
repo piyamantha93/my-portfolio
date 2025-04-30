@@ -13,13 +13,12 @@ const Skill = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/public/Piyamantha_CV.pdf"; 
+    link.href = "/Piyamantha_CV.pdf"; 
     link.download = "Piyamantha_CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
-  
   
   return (
     <section>
