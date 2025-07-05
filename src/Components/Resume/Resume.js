@@ -1,6 +1,7 @@
 import React from 'react';
 import Education from './Education';
 import Skill from './Skill';
+import Line from '../Line/Line';
 
 const Resume = () => {
   return (
@@ -13,12 +14,10 @@ const Resume = () => {
           <Skill />
         </div>
       </div>
-
-      {/* Horizontal Line */}
-      <div className="flex justify-center items-center bg-gray-200 m-5 p-0 ">
-        <div className="w-full max-w-7xl h-[2px] bg-gray-500"></div>
-      </div>
+      <br/>
+      <Line />
     </div>
+    
   );
 };
 

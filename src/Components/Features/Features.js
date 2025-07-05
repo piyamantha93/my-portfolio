@@ -2,12 +2,13 @@ import React from "react";
 import Title from "../layouts/Titel";
 import Card from "./Card";
 import { featuresData } from "../../Data/Data";
+import Line from "../Line/Line";
 
 const Features = () => {
   return (
     <section
       id="features"
-      className="bg-gray-200 w-full py-20"
+      className="bg-gray-200 w-full py-5"
     >
       <div className="flex justify-center items-center text-center">
       <Title des="What I Do" />
@@ -19,13 +20,16 @@ const Features = () => {
           <Card item={item} key={item.id} />
         ))}
       </div>
+   
+      <Line />
+ 
+    
       
-      <div className="flex justify-center items-center bg-gray-200 m-10 p-0">
-  {/* Horizontal Line */}
-  <div className="w-full max-w-7xl h-[2px] bg-gray-500"></div>
-</div>
+      
     </section>
+    
   );
+   
 };
 
 export default Features;

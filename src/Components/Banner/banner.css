@@ -10,3 +10,9 @@
     @apply bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white;
   }
   
+  @media (max-width: 768px) {
+  .custom-title {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+}

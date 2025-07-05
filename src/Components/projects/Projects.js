@@ -1,8 +1,9 @@
 
 import React, { useState } from "react";
 import Title from "../layouts/Titel";
-import { projectOne, projectTwo, projectThree, projectFour } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour, projectFive } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
+import Line from "../Line/Line";
 
 
 const projectData = [
@@ -37,6 +38,15 @@ const projectData = [
     des: "A fully responsive front-end e-commerce web application built using React.js and Tailwind CSS. This modern shopping platform features a clean and intuitive user interface, allowing users to explore products across multiple categories such as Men, Women, Kids, Accessories, and more. .",
     src: projectFour,
     githubLink: "https://github.com/piyamantha93/E-commerce",
+    
+  },
+
+    {
+    id: 5,
+    title: "Suppliment Store",
+    des: "Developed a responsive full-stack supplement store web application using React.js, Node.js, Express, and MongoDB. The platform features product filtering by category, detailed product pages with “Add to Cart” and “Buy Now” options, and smooth pagination for browsing.",
+    src: projectFive,
+    githubLink: "https://github.com/piyamantha93/Bodybullding-web",
     
   },
 ];
@@ -75,12 +85,13 @@ const Projects = () => {
           />
         ))}
       </div> 
-
-      {/* Bottom Divider Line */}
-      <div className="flex justify-center items-center bg-gray-200 my-10">
-        <div className="w-full max-w-7xl h-[2px] bg-gray-500"></div>
-      </div>
+      <br />
+      <br/>
+    <Line />
+    
+      
     </section>
+   
   );
 };
 
